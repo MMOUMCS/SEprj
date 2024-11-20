@@ -1,0 +1,65 @@
+/* UploadPage.css */
+
+/* General container for the registration page */
+.product-registration-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Title of the page */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form container */
+.product-form {
+  background-color: beige;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each form item (label + input) */
+.form-item {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-item label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-item input,
+.form-item select {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-item input[type="number"] {
+  width: 95%;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
