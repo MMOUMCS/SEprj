@@ -1,0 +1,132 @@
+.my-page-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 30px;
+}
+
+.info-section,
+.history-section,
+.reviews-section {
+  width: 30%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.my-info-container {
+  margin-bottom: 20px;
+}
+
+.my-info-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.my-page-form .form-group {
+  margin-bottom: 15px;
+}
+
+.my-page-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.my-page-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.my-page-form input:disabled {
+  background-color: #f0f0f0;
+}
+
+.my-page-form .error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 5px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #f0f0f0;
+}
+
+.button-group button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.history-section h2,
+.reviews-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.recent-visits-container ul,
+.reviews-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-visits-container li,
+.reviews-container li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.reviews-container li h3 {
+  font-size: 1.25em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.reviews-container li p {
+  font-size: 1em;
+  color: #555;
+}
+
+.reviews-container li p:last-child {
+  margin-top: 10px;
+  font-size: 0.875em;
+  color: #888;
+}
+
+.reviews-container li p {
+  margin-bottom: 10px;
+}
+
+.reviews-section {
+  margin-top: 20px;
+}
