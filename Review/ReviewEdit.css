@@ -1,0 +1,75 @@
+/* review-container 중앙 정렬 및 여백 설정 */
+.review-container {
+  margin: 40px auto;
+  max-width: 600px; /* 너비 제한 */
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 살짝 그림자 효과 추가 */
+}
+
+/* input-group 간격 설정 */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* label 스타일 */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* input, textarea, button의 가로 크기 100%로 맞추기 및 좌우 여백 */
+input,
+textarea,
+button {
+  width: 100%; /* 부모 요소에 맞게 가로 크기 100% */
+  padding: 12px; /* 패딩으로 여백 설정 */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box; /* 패딩을 포함한 크기 계산 */
+}
+
+/* 버튼 스타일 */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* textarea 고정 크기 설정 */
+textarea {
+  height: 150px; /* 고정 높이 설정 */
+  resize: none; /* 크기 조정 방지 */
+}
+
+/* 메시지 스타일 */
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.message.success {
+  background-color: #28a745;
+  color: white;
+}
+
+.message.error {
+  background-color: #dc3545;
+  color: white;
+}
